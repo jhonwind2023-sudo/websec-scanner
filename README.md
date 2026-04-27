@@ -1,46 +1,53 @@
 # WebSec Scanner 🔍
 
-A real website security scanning tool that checks for security headers, SQL injection, XSS, directory traversal, and sensitive file exposure.
+**Real website security scanning tool** — check security headers, SQL injection, XSS, directory traversal, and sensitive file exposure.
 
-## Features
+## 🚀 Live Demo
 
-- **Security Headers Audit** - Checks CSP, HSTS, X-Frame-Options, X-Content-Type-Options, and more
-- **SQL Injection Testing** - Automated parameter injection testing
-- **XSS Detection** - Cross-site scripting vulnerability scanning
-- **Directory Traversal** - Path traversal attempt detection
-- **Sensitive Files** - Exposed config/backup file discovery
-- **Server Info** - Technology stack identification
+Try it now: [http://103.74.194.42:9090](http://103.74.194.42:9090)
 
-## Quick Start
+No registration needed. Just enter a URL and scan.
+
+## ✨ Features
+
+- **Security Headers Audit** — CSP, HSTS, X-Frame-Options, X-Content-Type-Options, etc.
+- **SQL Injection Testing** — Automated parameter injection
+- **XSS Detection** — Cross-site scripting vulnerability scanning
+- **Directory Traversal** — Path traversal detection
+- **Sensitive Files** — Exposed config/backup file discovery
+- **Server Info** — Technology stack identification
+
+## 📦 Quick Start
 
 ```bash
-# Install
 git clone https://github.com/jhonwind2023-sudo/websec-scanner.git
 cd websec-scanner
 pip install requests
 
-# Run a scan
+# Scan a website
 python3 websec_scanner_pro.py https://example.com
 ```
 
-## Online Demo
+## 🌐 API Usage
 
-Try it online: [http://103.74.194.42:9090](http://103.74.194.42:9090)
+```bash
+curl "http://103.74.194.42:8090/scan?url=https://example.com"
+```
 
-API endpoint: `http://103.74.194.42:8090/scan?url=https://example.com`
+## 💎 Pricing
 
-## Pricing
-
-| Tier | Price | Features |
-|------|-------|----------|
+| Tier | Price | What You Get |
+|------|-------|-------------|
 | Free | $0 | Basic scan + headers check |
-| Pro | $49 | Deep penetration test + detailed PDF report |
-| Enterprise | $149 | Full audit + monitoring + response |
+| Pro | $49 | Deep penetration test + detailed PDF report + remediation guide |
+| Enterprise | $149 | Full audit + continuous monitoring + emergency response |
 
-## Support
+## 🤝 Support
 
-Contact: jhonwind2023@gmail.com
+- Email: [jhonwind2023@gmail.com](mailto:jhonwind2023@gmail.com)
+- Live demo: [http://103.74.194.42:9090](http://103.74.194.42:9090)
+- API: `http://103.74.194.42:8090/scan?url=`
 
----
+## 📄 License
 
-*Built with Python. Results for reference only. Do not use for illegal purposes.*
+MIT — Built with Python. Results for reference only.
