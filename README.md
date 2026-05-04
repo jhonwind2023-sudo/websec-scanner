@@ -1,53 +1,50 @@
-# WebSec Scanner 🔍
+# WebSec Scanner Pro
 
-**Real website security scanning tool** — check security headers, SQL injection, XSS, directory traversal, and sensitive file exposure.
+**Real-time website security vulnerability scanner** — Scan any website for OWASP Top 10 vulnerabilities, security header gaps, open ports, SSL issues, and more.
 
-## 🚀 Live Demo
+🌐 **Live Demo**: [sec.92888888.xyz](http://sec.92888888.xyz)
 
-Try it now: [http://103.74.194.42:9090](http://103.74.194.42:9090)
+## Features
 
-No registration needed. Just enter a URL and scan.
+- **200+ vulnerability checks** across OWASP Top 10 categories
+- **Security headers audit** — HSTS, CSP, X-Frame-Options, X-Content-Type-Options, etc.
+- **CORS misconfiguration detection**
+- **SSL/TLS analysis**
+- **Open port scanning**
+- **CSP evaluation**
+- **Subdomain discovery**
+- **Detailed remediation guidance** for every finding
 
-## ✨ Features
-
-- **Security Headers Audit** — CSP, HSTS, X-Frame-Options, X-Content-Type-Options, etc.
-- **SQL Injection Testing** — Automated parameter injection
-- **XSS Detection** — Cross-site scripting vulnerability scanning
-- **Directory Traversal** — Path traversal detection
-- **Sensitive Files** — Exposed config/backup file discovery
-- **Server Info** — Technology stack identification
-
-## 📦 Quick Start
+## Quick Start
 
 ```bash
-git clone https://github.com/jhonwind2023-sudo/websec-scanner.git
-cd websec-scanner
-pip install requests
-
-# Scan a website
-python3 websec_scanner_pro.py https://example.com
+# Scan a website instantly
+curl "https://sec.92888888.xyz/scan?url=https://example.com"
 ```
 
-## 🌐 API Usage
+## Pricing
 
-```bash
-curl "http://103.74.194.42:8090/scan?url=https://example.com"
-```
+| Plan | Price | Features |
+|------|-------|----------|
+| Free | $0 | Basic scan with summary |
+| Basic | $49 | Full detailed report + remediation |
+| Professional | $149 | Everything + priority support + hands-on guidance |
 
-## 💎 Pricing
+## Why WebSec Scanner?
 
-| Tier | Price | What You Get |
-|------|-------|-------------|
-| Free | $0 | Basic scan + headers check |
-| Pro | $49 | Deep penetration test + detailed PDF report + remediation guide |
-| Enterprise | $149 | Full audit + continuous monitoring + emergency response |
+- **No registration required** for free scans
+- **Real results** — not simulated or templated
+- **Actionable remediation** steps for each vulnerability
+- **Fast turnaround** — scans complete in seconds
+- **PayPal payments** accepted
 
-## 🤝 Support
+## Tech Stack
 
-- Email: [jhonwind2023@gmail.com](mailto:jhonwind2023@gmail.com)
-- Live demo: [http://103.74.194.42:9090](http://103.74.194.42:9090)
-- API: `http://103.74.194.42:8090/scan?url=`
+- Python-based scanning engine
+- Multi-threaded concurrent scanning
+- Real-time DNS, SSL, and HTTP analysis
+- Deployed on cloud infrastructure
 
-## 📄 License
+## License
 
-MIT — Built with Python. Results for reference only.
+MIT
