@@ -2,7 +2,9 @@
 
 **Real-time website security vulnerability scanner** — Scan any website for OWASP Top 10 vulnerabilities, security header gaps, open ports, SSL issues, and more.
 
-🌐 **Live Demo**: [sec.92888888.xyz](http://sec.92888888.xyz)
+🌐 **Live Demo**: [sec.92888888.xyz](https://sec.92888888.xyz)
+🛒 **Buy Now**: [Payhip - $29](https://payhip.com/b/2HZrT) (Limited time: $19)
+⭐ **Star this repo** if you find it useful!
 
 ## Features
 
@@ -11,40 +13,41 @@
 - **CORS misconfiguration detection**
 - **SSL/TLS analysis**
 - **Open port scanning**
-- **CSP evaluation**
-- **Subdomain discovery**
-- **Detailed remediation guidance** for every finding
+- **Information disclosure checks**
+- **HTML & JSON report generation**
+- **No external dependencies** (pure Python 3)
 
 ## Quick Start
 
 ```bash
-# Scan a website instantly
-curl "https://sec.92888888.xyz/scan?url=https://example.com"
+# Clone the repo
+git clone https://github.com/jhonwind2023-sudo/websec-scanner.git
+cd websec-scanner
+
+# Run a scan
+python3 websec_scanner_pro.py -u https://example.com
+
+# Or use the basic scanner
+python3 websec_scanner.py -u https://example.com
 ```
 
-## Pricing
+## Online Scanner
 
-| Plan | Price | Features |
-|------|-------|----------|
-| Free | $0 | Basic scan with summary |
-| Basic | $49 | Full detailed report + remediation |
-| Professional | $149 | Everything + priority support + hands-on guidance |
+Try it free at **[sec.92888888.xyz](https://sec.92888888.xyz)** — no installation needed.
 
-## Why WebSec Scanner?
+## Purchase Full Version
 
-- **No registration required** for free scans
-- **Real results** — not simulated or templated
-- **Actionable remediation** steps for each vulnerability
-- **Fast turnaround** — scans complete in seconds
-- **PayPal payments** accepted
+The full scanner script with advanced features is available for **$29** (launch special: **$19**):
 
-## Tech Stack
+➡️ **[Buy on Payhip](https://payhip.com/b/2HZrT)**
 
-- Python-based scanning engine
-- Multi-threaded concurrent scanning
-- Real-time DNS, SSL, and HTTP analysis
-- Deployed on cloud infrastructure
+What you get:
+- Complete Python source code
+- Advanced scanning engine
+- HTML & JSON report generation
+- Free updates for 6 months
+- Email support
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
